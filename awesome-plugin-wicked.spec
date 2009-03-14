@@ -1,5 +1,6 @@
 Summary:	wicked - a lua library for dynamic widgets in awesome
 Summary(hu.UTF-8):	wicked - egy lua könyvtár dinamikus widget-ekhez awesome ablakkezelőben
+Summary(pl.UTF-8):	wicked - biblioteka lua do dynamicznych widgetów w awesome
 Name:		awesome-plugin-wicked
 Version:	20090314
 Release:	1
@@ -20,6 +21,11 @@ file.
 Wicked egy lua-ban írt könyvtár az awesome statusbar-jában levő
 widgetek könnyű létrehozásához és menedzselése az rc.lua konfigurációs
 fájlból.
+
+%description -l pl.UTF-8
+Wicked jest biblioteka języka lua służącą do łatwego tworzenia
+i zarządzania dynamicznymi obiektami na paskach statusu zarządcy okien
+awesome z poziomu pliku konfiguracyjnego rc.lua.
 
 %prep
 %setup -q -n wicked
