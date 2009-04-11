@@ -23,7 +23,7 @@ widgetek könnyű létrehozásához és menedzselése az rc.lua konfigurációs
 fájlból.
 
 %description -l pl.UTF-8
-Wicked jest biblioteka języka lua służącą do łatwego tworzenia
+Wicked jest biblioteką języka lua służącą do łatwego tworzenia
 i zarządzania dynamicznymi obiektami na paskach statusu zarządcy okien
 awesome z poziomu pliku konfiguracyjnego rc.lua.
 
