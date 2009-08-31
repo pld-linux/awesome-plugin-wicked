@@ -10,6 +10,7 @@ Group:		X11/Window Managers/Tools
 Source0:	http://carme.pld-linux.org/~uzsolt/sources/%{name}-%{version}.tar.bz2
 # Source0-md5:	8e00dcf439988c83c3df9642527dd403
 Obsoletes:	wicked
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -23,8 +24,8 @@ widgetek könnyű létrehozásához és menedzselése az rc.lua konfigurációs
 fájlból.
 
 %description -l pl.UTF-8
-Wicked jest biblioteką języka lua służącą do łatwego tworzenia
-i zarządzania dynamicznymi obiektami na paskach statusu zarządcy okien
+Wicked jest biblioteką języka lua służącą do łatwego tworzenia i
+zarządzania dynamicznymi obiektami na paskach statusu zarządcy okien
 awesome z poziomu pliku konfiguracyjnego rc.lua.
 
 %prep
